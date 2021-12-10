@@ -1,0 +1,58 @@
+<html>
+<head>
+	<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=utf-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<h1>Sposoby podłączania styli do strony</h1>
+
+<table border="3px">
+	<tr>
+		<td>
+			&lt;head&gt;<br>
+			&nbsp; &lt;link rel="Stylesheet" type="text/css" href="style.css" /&gt;</br>
+			&lt;/head&gt;<br>
+		</td>
+	</tr>
+	
+	<tr>
+		<td>
+			&lt;selektor style="cecha1: wartość1; cecha2: wartość2..."&gt;...&lt;/selektor&gt;<br>
+		</td>
+	</tr>
+	
+	<tr>
+		<td>
+			&lt;head&gt;<br>
+				&nbsp; &lt;style type="text/css"&gt;<br>
+					&nbsp &nbsp selektor1 { cecha: wartość; cecha2: wartość2... }<br>
+					&nbsp &nbsp selektor2 { cecha: wartość; cecha2: wartość2... }<br>
+				&nbsp; &lt;/style&gt;<br>
+			&lt;/head&gt;<br>
+		</td>
+	</tr>
+	
+	<tr>
+		<td>
+			&lt;head&gt;<br>
+				&nbsp; &lt;link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" /&gt;<br>
+				&nbsp; &lt;link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" /&gt;<br>
+				&nbsp; &lt;link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" /&gt;<br>
+			&lt;/head&gt;<br>
+		</td>
+	</tr>
+	
+	<tr>
+		<td>
+			&lt;style type="text/css"&gt;<br>
+			&nbsp;	@import url(adres zewnętrznego arkusza stylów);<br>
+			&lt;/style&gt;<br>
+		</td>
+	</tr>
+</table>
+
+
+
+</body>
+</html>
